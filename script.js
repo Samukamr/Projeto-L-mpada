@@ -7,22 +7,22 @@ let turnOnOff = document.querySelector('.turnOnOff');
 // função pra ver se a lampada está quebrada
 function isLampBroken() {
     return lamp.src.indexOf ('quebrada') > -1
-}
+};
 
 function lampOn() {
     if( !isLampBroken() ) { // "!" = não
         lamp.src = './images/ligada.jpg';
     }
-}
+};
 function lampOff() {
     if( !isLampBroken() ) {
          lamp.src = './images/desligada.jpg';
     }
-}
+};
 // Lâmpada quebrada 
 function lampBroken() {
     lamp.src = './images/quebrada.jpg';
-}
+};
 
 // Liga e Desliga
 function lampOnOff() {
