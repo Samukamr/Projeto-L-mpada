@@ -35,7 +35,6 @@ function lampOnOff() {
     }
 };
 
-
 turnOn.addEventListener('click', lampOn);
 turnOff.addEventListener('click', lampOff); 
 lamp.addEventListener('mouseover', lampOn); // quando passar o mouse
